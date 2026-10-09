@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awais Farooq — Study Abroad Consultant & Counselling Lead</title>
+  <meta name="description" content="Portfolio of Awais Farooq — Study Abroad Consultant & International Education Specialist based in Lahore, Pakistan. Over 50+ successful visa approvals across UK, Australia, EU, NZ, Malaysia & UAE.">
+  <meta name="author" content="Awais Farooq">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Awais Farooq — Study Abroad Consultant">
+  <meta property="og:description" content="Study Abroad Consultant & Sales Specialist with 50+ successful visa approvals across UK, Australia, Europe & Global hubs.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;500;600;700;800&family=Geist+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Glass Navbar -->
+  <div class="navbar-wrapper">
+    <nav class="navbar" id="navbar">
+      <a href="#" class="brand-logo">
+        <span class="brand-star">✦</span>
+        <span>Awais<span style="color: var(--accent-color);">.</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#work" class="nav-link">Expertise</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button type="button" id="theme-toggle" class="theme-toggle-btn" aria-label="Switch to light mode">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path><path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path><path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn-say-hi">
+          <span>Say Hi</span>
+          <span aria-hidden="true">👋</span>
+        </a>
+
+        <button type="button" id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle mobile menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer">
+    <a href="#work">Expertise</a>
+    <a href="#services">Services</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-glow-bg"></div>
+
+    <div class="container hero-content">
+      <div class="hero-grid">
+        <!-- Left Column: Typography & CTAs -->
+        <div class="hero-text-col">
+          <div class="hero-status-pill reveal">
+            <span class="status-dot"></span>
+            <span id="hero-status-span">Available for Education Counselling & Advisory · Lahore, PK</span>
+          </div>
+
+          <h1 class="hero-title font-display reveal">
+            <span class="hero-title-main" id="hero-name-main">Awais Farooq.</span>
+            <span class="hero-title-sub" id="hero-title-sub">Study Abroad Consultant & Sales Specialist.</span>
+          </h1>
+
+          <p class="hero-desc reveal" id="hero-desc">
+            Guiding Pakistani students to premier global destinations across the UK, Australia, Europe, New Zealand, Malaysia, and UAE. Delivering high-conversion admissions, CAS documentation, and 50+ visa approvals.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a href="#work" class="btn-primary">
+              <span>Explore Pathways</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+            </a>
+            <a href="assets/Awais_Farooq_CV.pdf" download class="btn-secondary" id="resume-btn-hero">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <div class="stats-strip reveal" id="stats-strip-container">
+            <!-- Dynamic stats rendered here -->
+          </div>
+        </div>
+
+        <!-- Right Column: Prominent Portrait Card -->
+        <div class="hero-portrait-col reveal">
+          <div class="portrait-card">
+            <div class="portrait-image-wrapper">
+              <img src="assets/profile.jpg" alt="Awais Farooq — Study Abroad Consultant" class="portrait-img" id="hero-profile-img">
+              <div class="portrait-overlay-gradient"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work / Selected Expertise Section -->
+  <section id="work" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-tag">PORTFOLIO</span>
+          <h2 class="section-title font-display">Selected Pathways & Impact</h2>
+        </div>
+        <p class="section-subtitle">
+          Proven success in shortlisting institutions, coordinating complex visa paperwork, and securing admissions for international higher education.
+        </p>
+      </div>
+
+      <div class="work-grid" id="work-grid-container">
+        <!-- Dynamic work cards rendered here from data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Labs / Services Carousel Section -->
+  <section id="services" class="section labs-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-tag">SERVICES</span>
+          <h2 class="section-title font-display">Student Counselling & Sales Offerings</h2>
+        </div>
+        <p class="section-subtitle">
+          Tailored, student-centric advisory from course selection to post-arrival orientation.
+        </p>
+      </div>
+
+      <div class="carousel-container reveal" id="services-carousel-container">
+        <!-- Dynamic services rendered here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section achievements-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div>
+          <span class="section-tag">ACHIEVEMENTS</span>
+          <h2 class="section-title font-display">Awards, Milestones & Credentials</h2>
+        </div>
+        <p class="section-subtitle">
+          Demonstrated excellence in global student visa processing, verified professional credentials, and industry recognitions.
+        </p>
+      </div>
+
+      <div class="achievements-grid" id="achievements-grid-container">
+        <!-- Dynamic achievements rendered here from data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">ABOUT</span>
+        <h2 class="section-title font-display">Background & Track Record</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="about-text-large font-display" id="about-text-large">
+            I'm <span class="highlight">Awais Farooq</span>, a Study Abroad Consultant and Sales Specialist based in <span class="highlight">Lahore, Pakistan</span>. Over the past 4+ years, I've guided prospective students to secure admissions and visas across the <span class="highlight">UK, Australia, Europe, New Zealand, Malaysia, and UAE</span>.
+          </p>
+
+          <div class="about-badges" id="about-badges-container">
+            <!-- Dynamic badges rendered here -->
+          </div>
+        </div>
+
+        <div class="reveal">
+          <div class="about-profile-card">
+            <div class="about-avatar-wrapper">
+              <img src="assets/profile.jpg" alt="Awais Farooq" class="about-avatar-img" id="about-avatar-img">
+            </div>
+            <div class="about-card-info">
+              <h3 class="about-name font-display" id="about-name">Awais Farooq</h3>
+              <p class="about-role" id="about-role">UK Market Manager · International Education Consultant</p>
+              <p class="about-sidebar-text" id="about-sidebar-text">
+                Skilled at identifying client needs, coordinating complex documentation, and matching prospective applicants with leading global universities. Combining consultative sales expertise with genuine care for student outcomes.
+              </p>
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.25rem;">
+                <a href="assets/Awais_Farooq_CV.pdf" download class="btn-primary" id="resume-btn-about">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                  <span>Download Resume</span>
+                </a>
+                <a href="#contact" class="btn-secondary">Get in Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Footer Section -->
+  <footer id="contact" class="footer-contact">
+    <div class="container">
+      <a href="mailto:awaix407@gmail.com" class="contact-giant-link reveal" id="contact-email-link">
+        <span>Say hello</span>
+        <svg class="contact-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+      </a>
+
+      <div class="footer-info-grid reveal">
+        <div>
+          <div class="info-label">Direct Email</div>
+          <div class="info-val" id="footer-email-val">
+            <a href="mailto:awaix407@gmail.com">awaix407@gmail.com</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="info-label">Phone / WhatsApp</div>
+          <div class="info-val" id="footer-phone-val">
+            <a href="https://wa.me/923215801268" target="_blank" rel="noopener">+92 321 5801268</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="info-label">LinkedIn</div>
+          <div class="info-val" id="footer-linkedin-val">
+            <a href="https://linkedin.com/in/awais-hashmi-aa2b48247" target="_blank" rel="noopener">awais-hashmi-aa2b48247</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="info-label">Location</div>
+          <div class="info-val" id="footer-location-val">Lahore, 54000, Pakistan</div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 <span id="footer-name">Awais Farooq</span>. All rights reserved.</span>
+        <div style="display: flex; gap: 1.5rem; align-items: center;">
+          <span class="font-mono" style="text-transform: uppercase; letter-spacing: 0.15em;">International Education & Counselling</span>
+          <a href="admin.html" target="_blank" style="color: var(--accent-color); font-size: 0.85rem; font-weight: 600; text-decoration: underline;">🔒 Admin Panel</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Image Lightbox Modal -->
+  <div id="image-modal" class="image-modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-content">
+      <button type="button" id="modal-close" class="modal-close-btn" aria-label="Close image modal">&times;</button>
+      <img src="assets/profile.jpg" alt="Awais Farooq — Portrait High Res" class="modal-img" id="modal-img-elem">
+      <div class="modal-caption" id="modal-caption-text">Awais Farooq — Study Abroad Consultant & UK Market Manager</div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
